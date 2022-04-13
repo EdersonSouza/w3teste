@@ -19,6 +19,10 @@
     <v-div>
       <top-cacilds/>
     </v-div>
+
+    <v-div>
+      <divoltis-porris/>
+    </v-div>
     
 
   </v-app>
@@ -27,13 +31,15 @@
 <script>
 import Teste from './components/Teste';
 import TopCacilds from './components/TopCacilds';
+import DivoltisPorris from './components/DivoltisPorris.vue';
 
 export default {
   name: 'App',
 
   components: {
     Teste,
-    TopCacilds
+    TopCacilds,
+    DivoltisPorris,
   },
 
   data: () => ({

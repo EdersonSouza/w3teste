@@ -3,7 +3,8 @@
     <v-container>
       <h2 class="text-left">top cacilds</h2>
       <v-row>
-        <v-col v-for="item in items" :key="item.id" class="d-flex child-flex" cols="6" sm="4" md="4">
+        <v-col v-for="item in items" :key="item.id" class="d-flex child-flex mx-auto my-12" cols="12" sm="4" md="4"  height="100%" 
+          max-width="374">
           <v-card flat tile class="d-flex">
             <v-img :src="item.src" aspect-ratio="1" class="grey lighten-2">
               <template v-slot:placeholder>

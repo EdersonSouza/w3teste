@@ -2,7 +2,7 @@
   <v-div>
     <v-container>
       <v-flex xs12 sm12 md12>
-        <v-card class="align-center justify-space-between mr-0 sx4 md4 sm4 lg4 xl4"  >
+        <v-card class="align-center justify-space-between mr-0 sx4 md4 sm4 lg4 xl4 "  >
           <v-carousel>
             <v-carousel-item
               src="../assets/image_rotate.png"
