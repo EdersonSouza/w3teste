@@ -39,7 +39,7 @@ export default {
   components: {
     Teste,
     TopCacilds,
-    DivoltisPorris,
+    DivoltisPorris
   },
 
   data: () => ({
