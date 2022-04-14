@@ -5,7 +5,7 @@
 
 
       <v-card
-  
+        
             
         >
         <h2 class="text-left">top cacilds</h2>
@@ -17,7 +17,8 @@
                     <v-col>
                         <v-layout row warap>
                             
-                                <v-col  class="d-flex child-flex mx-auto my-12 " 
+                                <v-col  cols="12"
+                                        md="6" class="d-flex child-flex mx-auto my-12 " 
                                 
                                 >
                                     <v-card >
@@ -36,7 +37,8 @@
                                     </v-card>
                                 </v-col>
                                     
-                                <v-col  class="d-flex child-flex mx-auto my-12 " 
+                                <v-col  cols="12"
+                                            md="6" class="d-flex child-flex mx-auto my-12 " 
                                 
                                 >
                                     <v-card >
@@ -55,7 +57,8 @@
                                     </v-card>
                                     
                                 </v-col>
-                                <v-col  class="d-flex child-flex mx-auto my-12 " 
+                                <v-col  cols="12"
+                                        md="6" class="d-flex child-flex mx-auto my-12 " 
                                 >
                                     <v-card >
                                         <v-img
@@ -72,12 +75,14 @@
 
                                     </v-card>
                                 </v-col>    
-                                <v-col  class="d-flex child-flex mx-auto my-12 " 
+                                <v-col cols="12"
+                                        md="6" class="d-flex child-flex mx-auto my-12 " 
                                 
                                 >
                                     <v-card >
                                         <v-img
                                             src="../assets/divoltis/divoltis_porris-04.png"
+                                            
                                         ></v-img>
 
                                         <v-card-title class="primary--text">Consentis</v-card-title>
@@ -101,7 +106,7 @@
                     </v-col>
                     <v-col>
                         <v-row>
-                            <v-flex md6>
+                            <v-flex sx12 md6>
                                 <v-col>
                                     <v-card>
                                         <v-card-text align="right">

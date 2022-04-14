@@ -6,6 +6,7 @@
           <v-carousel>
             <v-carousel-item
               src="../assets/image_rotate.png"
+              width="100%"
               
             >
 

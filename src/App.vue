@@ -1,15 +1,46 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
+    <div>
+        <v-toolbar
+         color="primary"
+          dark
+          prominent
+          
+        >
+          <v-app-bar-nav-icon></v-app-bar-nav-icon>
+          <v-spacer></v-spacer>
+          <v-spacer></v-spacer>
+          <v-logo
+            >
+            <v-img
+            align="center"
+            width="70%"
+            src="@/assets/agencia-logo.png"
+            >
+              
+            </v-img>
+          </v-logo>
 
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
+          <v-spacer></v-spacer>
+          <v-row warap>
+            <v-col sm6 md6>
+              <v-btn icon >
+                <v-icon>mdi-facebook</v-icon>
+                Curtir
+              </v-btn>
+            </v-col> 
+            <v-col sm6 md6>
+              <v-btn icon >
+                <v-icon>mdi-instagram</v-icon>
+                Seguir
+              </v-btn>
+            </v-col>
+          </v-row>
 
-      <v-spacer></v-spacer>
-    </v-app-bar>
+          
+         
+        </v-toolbar>
+      </div>
     <v-spacer></v-spacer>
     <v-spacer></v-spacer>
     <v-main>
