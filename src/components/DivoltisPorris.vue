@@ -4,7 +4,7 @@
     <v-container>
 
 
-        <h2 class="text-left">top cacilds</h2>
+        <h2 class="text-left">divoltis porris</h2>
         
         
             
@@ -25,7 +25,7 @@
 
                                         <v-card-title class="primary--text">Consentis</v-card-title>
                                         <v-card-text class="black--text">
-                                                <v-p>Manduma pindureta quium dia nois paga</v-p> 
+                                                <v-p>Manduma pindureta quium dia nois paga.</v-p> 
                                                 <v-spacer></v-spacer>
                                                 <v-p> Sapien in monti palavri</v-p>
                                                         
@@ -44,11 +44,11 @@
                                              
                                         ></v-img>
 
-                                        <v-card-title class="primary--text">Consentis</v-card-title>
+                                        <v-card-title class="primary--text">ANEAN</v-card-title>
                                         <v-card-text class="black--text">
-                                                <v-p>Manduma pindureta quium dia nois paga</v-p> 
+                                                <v-p>Pellentesque laoreete mé vel scelerisque </v-p> 
                                                 <v-spacer></v-spacer>
-                                                <v-p> Sapien in monti palavri</v-p>
+                                                <v-p> interdun cursus</v-p>
                                                         
                                         </v-card-text>
 
@@ -64,11 +64,11 @@
                                              
                                         ></v-img>
 
-                                        <v-card-title class="primary--text">Consentis</v-card-title>
+                                        <v-card-title class="primary--text">MATIS</v-card-title>
                                         <v-card-text class="black--text">
-                                                <v-p>Manduma pindureta quium dia nois paga</v-p> 
+                                                <v-p>Etiam ac mauris lectus, non sceliresque auge.</v-p> 
                                                 <v-spacer></v-spacer>
-                                                <v-p> Sapien in monti palavri</v-p>
+                                                <v-p> Aenean justo massa.</v-p>
                                                         
                                         </v-card-text>
 
@@ -86,11 +86,11 @@
                                             
                                         ></v-img>
 
-                                        <v-card-title class="primary--text">Consentis</v-card-title>
-                                        <v-card-text class="black--text">
-                                                <v-p>Manduma pindureta quium dia nois paga</v-p> 
+                                        <v-card-title class="primary--text">DIVINIS</v-card-title>
+                                        <v-card-text class="black--text text-h7">
+                                                <v-p>Suco de cavadiss, é um leite dinvinis, que tem lupuliz, maltis</v-p> 
                                                 <v-spacer></v-spacer>
-                                                <v-p> Sapien in monti palavri</v-p>
+                                                
                                                         
                                         </v-card-text>
 

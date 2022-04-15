@@ -48,9 +48,10 @@
       <top-cacilds/>
       <divoltis-porris/>
       <pais-filhis/>
+      
     </v-main>
     
-    
+     <footerr/>
       
     
     
@@ -63,6 +64,7 @@ import Teste from './components/Teste';
 import TopCacilds from './components/TopCacilds';
 import DivoltisPorris from './components/DivoltisPorris.vue';
 import PaisFilhis from'./components/PaisFilhis.vue'
+import Footerr from'./components/Footer.vue'
 
 export default {
   name: 'App',
@@ -71,7 +73,8 @@ export default {
     Teste,
     TopCacilds,
     DivoltisPorris,
-    PaisFilhis
+    PaisFilhis,
+    Footerr,
   },
 
   data: () => ({
