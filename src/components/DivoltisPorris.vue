@@ -1,16 +1,12 @@
 <template>
   
-  <v-div class="block galleryBlock">
+  <v-div >
     <v-container>
 
 
-      <v-card
-         whidth="100%"
-            
-        >
         <h2 class="text-left">top cacilds</h2>
-        <v-col></v-col>
-        <v-container>
+        
+        
             
             <v-row warap  >
                 
@@ -18,10 +14,10 @@
                         <v-layout row warap >
                             
                                 <v-col  cols="12"  sx="12" sm="12"
-                                        md="6" class="d-flex child-flex mx-auto my-12 " 
+                                        md="6" class="d-flex child-flex mx-auto my-12 "
                                 
                                 >
-                                    <v-card >
+                                    <v-card  width="800px">
                                         <v-img
                                             src="../assets/divoltis/mussum.png"
                                             
@@ -112,14 +108,16 @@
                    
                     <v-col >
                         <v-row>
-                            <v-flex  md7>
+                            <v-flex  md12>
                                 <v-col>
                                     <v-card>
                                         <v-card-text align="right">
                                             <v-cartd-title >publicidade</v-cartd-title>
                                         </v-card-text>
                                         <v-img
+                                             height="800px"
                                             src="../assets/divoltis/propaganda.png">
+                                           
                                         </v-img>
                                     </v-card>
                                 </v-col>
@@ -133,11 +131,11 @@
 
             
 
-        </v-container>
+        
         
             
             
-        </v-card>
+        
         
      
     </v-container>

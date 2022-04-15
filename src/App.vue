@@ -45,15 +45,14 @@
     <v-spacer></v-spacer>
     <v-main>
       <Teste/>
+      <top-cacilds/>
+      <divoltis-porris/>
+      <pais-filhis/>
     </v-main>
     
-    <v-div>
-      <top-cacilds/>
-    </v-div>
-
-    <v-div>
-      <divoltis-porris/>
-    </v-div>
+    
+      
+    
     
 
   </v-app>
@@ -63,6 +62,7 @@
 import Teste from './components/Teste';
 import TopCacilds from './components/TopCacilds';
 import DivoltisPorris from './components/DivoltisPorris.vue';
+import PaisFilhis from'./components/PaisFilhis.vue'
 
 export default {
   name: 'App',
@@ -70,7 +70,8 @@ export default {
   components: {
     Teste,
     TopCacilds,
-    DivoltisPorris
+    DivoltisPorris,
+    PaisFilhis
   },
 
   data: () => ({

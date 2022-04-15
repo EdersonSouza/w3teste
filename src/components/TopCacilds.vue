@@ -6,7 +6,7 @@
         <v-col v-for="item in items" :key="item.id" class="d-flex child-flex mx-auto my-12" cols="12" sm="4" md="4"  height="100%" 
           max-width="374">
           <v-card flat tile class="d-flex">
-            <v-img :src="item.src" aspect-ratio="1" class="white--text  align-end" max-height="250px"
+            <v-img :src="item.src" aspect-ratio="1" class="white--text  align-end" height="250px"
               >
               <div id="pindureta-pin">
                 <v-span    v-text="item.txt"></v-span>
