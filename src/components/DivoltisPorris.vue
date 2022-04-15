@@ -5,25 +5,26 @@
 
 
       <v-card
-        
+         whidth="100%"
             
         >
         <h2 class="text-left">top cacilds</h2>
         <v-col></v-col>
         <v-container>
             
-            <v-row warap>
+            <v-row warap  >
                 
                     <v-col>
-                        <v-layout row warap>
+                        <v-layout row warap >
                             
-                                <v-col  cols="12"
+                                <v-col  cols="12"  sx="12" sm="12"
                                         md="6" class="d-flex child-flex mx-auto my-12 " 
                                 
                                 >
                                     <v-card >
                                         <v-img
                                             src="../assets/divoltis/mussum.png"
+                                            
                                         ></v-img>
 
                                         <v-card-title class="primary--text">Consentis</v-card-title>
@@ -37,13 +38,14 @@
                                     </v-card>
                                 </v-col>
                                     
-                                <v-col  cols="12"
+                                <v-col  cols="12"  sx="12"
                                             md="6" class="d-flex child-flex mx-auto my-12 " 
                                 
                                 >
                                     <v-card >
                                         <v-img
                                             src="../assets/divoltis/divoltis_porris-02.png"
+                                             
                                         ></v-img>
 
                                         <v-card-title class="primary--text">Consentis</v-card-title>
@@ -57,12 +59,13 @@
                                     </v-card>
                                     
                                 </v-col>
-                                <v-col  cols="12"
+                                <v-col  cols="12"  sx="12"
                                         md="6" class="d-flex child-flex mx-auto my-12 " 
                                 >
                                     <v-card >
                                         <v-img
                                             src="../assets/divoltis/divoltis_porris-03.png"
+                                             
                                         ></v-img>
 
                                         <v-card-title class="primary--text">Consentis</v-card-title>
@@ -76,12 +79,14 @@
                                     </v-card>
                                 </v-col>    
                                 <v-col cols="12"
+                                        sx="12"
                                         md="6" class="d-flex child-flex mx-auto my-12 " 
                                 
                                 >
                                     <v-card >
                                         <v-img
                                             src="../assets/divoltis/divoltis_porris-04.png"
+                                             
                                             
                                         ></v-img>
 
@@ -104,9 +109,10 @@
                         </v-layout>
 
                     </v-col>
-                    <v-col>
+                   
+                    <v-col >
                         <v-row>
-                            <v-flex sx12 md6>
+                            <v-flex  md7>
                                 <v-col>
                                     <v-card>
                                         <v-card-text align="right">

@@ -6,9 +6,12 @@
         <v-col v-for="item in items" :key="item.id" class="d-flex child-flex mx-auto my-12" cols="12" sm="4" md="4"  height="100%" 
           max-width="374">
           <v-card flat tile class="d-flex">
-            <v-img :src="item.src" aspect-ratio="1" class="white--text  align-end" 
+            <v-img :src="item.src" aspect-ratio="1" class="white--text  align-end" max-height="250px"
               >
-              <v-span  id="pindureta-pin" class=" mt-12" v-text="item.txt"></v-span>
+              <div id="pindureta-pin">
+                <v-span    v-text="item.txt"></v-span>
+              </div>
+              
             </v-img>
 
           </v-card>
@@ -52,7 +55,9 @@
   #pindureta-pin {
      background-color: #FF5252; 
      opacity: 0.5;
-    
+     text-align: center;
+     max-width: 30%;
+     margin:5% 0%;
     
 
   

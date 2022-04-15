@@ -26,7 +26,7 @@
                       dark
                     >
                       <v-list-item-content>
-                        <v-list-item-title class="text-h8">
+                        <v-list-item-title id ="mussum" class="text-h8">
                           MUSSUM IPSUM CACILDS
                         </v-list-item-title>
                         <v-list-item-title class="text-h5">Pra lá, depois divoltis porris.</v-list-item-title>
@@ -88,3 +88,10 @@
     },
   }
 </script>
+<style >
+  #mussum {
+    max-width: 20%;
+    background-color: #2c8ccc;
+   
+  }
+</style>
